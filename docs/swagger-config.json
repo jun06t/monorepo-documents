@@ -1,0 +1,16 @@
+{
+  "urls": [
+    {
+      "url": "./api/service1-docs.json",
+      "name": "service1-docs.json"
+    },
+    {
+      "url": "./api/service2-docs.json",
+      "name": "service2-docs.json"
+    },
+    {
+      "url": "./api/service3-docs.json",
+      "name": "service3-docs.json"
+    }
+  ]
+}
