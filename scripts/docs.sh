@@ -10,4 +10,3 @@ cd $DIR
 poetry install
 poetry run python docs.py
 mv $TARGET $DOCS_DIR
-cd $ROOT_DIR
