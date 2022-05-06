@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  swagger-ui:
+    ports:
+      - 8080:8080
+    image: swaggerapi/swagger-ui
+    restart: always
+    volumes:
+      - ./docs:/usr/share/nginx/html/api
+    environment:
+      CONFIG_URL: ./api/swagger-config.json
