@@ -8,3 +8,5 @@ docs: $(DOCS_TARGETS)
 docs-all: docs
 	./scripts/merge-docs.sh
 
+build:
+	cd docs && docker build -t swagger .
